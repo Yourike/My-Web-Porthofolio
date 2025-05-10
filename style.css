@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5E7DA; /* Krem muda */
+  color: #8B5A2B; /* Coklat untuk teks */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  background-color: #F5E7DA; /* Tetap krem agar bersih */
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #7B2D26; /* Merah tua */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #7B2D26; /* Merah tua */
+  font-weight: 500;
+}
+
+/* Hero section */
+.hero {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #8B5A2B; /* Coklat tua */
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #8B5A2B;
+  font-weight: 400;
+}
