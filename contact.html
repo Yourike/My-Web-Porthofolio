@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>youri</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">youri</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="aboutme.html">ABOUT ME</a></li>
+        <li><a href="Portofolio.html">PORTOFOLIO</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="title">Hubungi saya</h1>
+    <section class="contact-form">
+      <form>
+        <div class="row">
+          <label for="nama">&#128100; Nama</label>
+          <input type="text" id="nama" name="nama" required />
+
+          <label for="email">&#9993; Alamat Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="row">
+          <label for="phone">&#128222; Nomor Handphone</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="info">Keterangan</label>
+          <select id="info" name="info">
+            <option value="">--Pilih--</option>
+            <option value="kerjasama">Kerjasama</option>
+            <option value="konsultasi">Konsultasi</option>
+          </select>
+        </div>
+
+        <label for="pesan">&#9998; Bagaimana saya bisa membantu Anda? Jangan ragu untuk menghubungi saya!</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+        <div class="contact-info">
+          <p>&#9742; PHONE: 087795067595</p>
+          <p>&#9993; EMAIL: yourike00b@gmail.com</p>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
