@@ -53,9 +53,24 @@ nav ul {
 nav a {
   text-decoration: none;
   font-size: 12px;
-  color: #7B2D26; 
+  color: #7B2D26;
   font-weight: 500;
 }
+
+nav a:hover {
+  color: #8B5A2B;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: #8B5A2B;
+  font-weight: 600;
+  padding-bottom: 2px;
+  text-decoration: none; /* pastikan tidak underline */
+}
+
+
+
 
 /* Hero section */
 .hero {
@@ -105,7 +120,7 @@ section {
   font-weight: bold;
   margin-bottom: 20px;
   color: #8B5A2B;
-  text-align: justify;
+ text-align: center;
 }
 
 .about-content {
@@ -156,6 +171,7 @@ body {
 .blog-heading {
   background-color: #E6C7A3;
   padding: 20px 0 10px 0;
+  text-align: center;
 }
 
 .blog-heading h2 {
@@ -378,9 +394,7 @@ h1, h2, h3 {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
-}
-}
+  margin-top: 30px;}
 
 .card {
   background-color: #A3A847;
@@ -475,7 +489,7 @@ h1, h2, h3 {
   background-color: #7b2d26;
 }
 
-''' ABOUT ME '''
+
 body {
   margin: 0;
   font-family: 'Georgia', serif;
@@ -503,9 +517,6 @@ nav a {
   font-weight: 500;
 }
 
-nav a.active {
-  border-bottom: 1px solid #5a3b1f;
-}
 
 .about-section {
   background-color: #E6C7A3;
@@ -561,13 +572,14 @@ nav a.active {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .education-box {
-  background-color: #955b1e;
+  background-color: #E6C7A3;
   padding: 30px;
   border-radius: 8px;
-  color: white;
+  color: #7B2D26;
   font-size: 16px;
   line-height: 1.8;
   text-align: left;
@@ -616,7 +628,7 @@ nav a.active {
 .footer a:hover {
   text-decoration: underline;
 }
-'''Portofolio'''
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #F5E7DA;
@@ -707,7 +719,7 @@ body {
   font-size: 0.9rem;
 
 }
-  '''Contact'''
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
 body {
