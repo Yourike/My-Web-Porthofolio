@@ -633,6 +633,17 @@ nav a {
   transform: scale(0.95);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.project-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: #7B2D26;
+  margin-top: 10px;
+  line-height: 1.4;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
