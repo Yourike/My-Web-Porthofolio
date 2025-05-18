@@ -3,22 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
+
+
 
 .main-content {
   flex: 1;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5E7DA; 
-  color: #8B5A2B; 
-}
+
 body {
   display: flex;
   flex-direction: column;
@@ -158,11 +150,6 @@ section {
   padding: 0;
 }
 
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5E7DA;
-}
 
 .blog-section {
   padding: 0 0 60px 0;
@@ -289,62 +276,6 @@ body {
 
 
 
-footer {
-  background-color: #7B2D26;
-  color: #F9F5E3;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0;
-}
-
-footer h4, footer p, footer a {
-  color: #F9F5E3;
-  text-decoration: none;
-  margin: 0 0 10px;
-  font-size: 14px;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-.footer-left {
-  flex: 1;
-  max-width: 250px;
-}
-
-.footer-center {
-  flex: 1;
-  max-width: 250px;
-}
-
-.footer-right {
-  flex: 1;
-  max-width: 250px;
-}
-footer {
-  background-color: #7B2D26;
-  color: #F9F5E3;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0;
-}
-
-.body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5E7DA;
-  margin: 0;
-  padding: 0;
-}
-
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #8B5A2B;
@@ -383,9 +314,11 @@ h1, h2, h3 {
 .resep-populer h2 {
   color: #7B2D26;
   font-family: 'Playfair Display', serif;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
+  background-color: #E6C7A3;
+  text-align: center;
 }
 
 
@@ -449,12 +382,11 @@ h1, h2, h3 {
 }
 
 .card {
-  background-color: #a3a847;
+  background-color: #F5E7DA;
   border-radius: 10px;
   padding: 15px;
   width: 250px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
 }
 
 .card img {
@@ -465,12 +397,12 @@ h1, h2, h3 {
 
 .card h3 {
   font-size: 18px;
-  color: #fff;
+  color: #7B2D26;
   margin-bottom: 8px;
 }
 
 .card p {
-  color: #fff;
+  color: #7B2D26;
   font-size: 14px;
   margin-bottom: 12px;
 }
@@ -490,12 +422,6 @@ h1, h2, h3 {
 }
 
 
-body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #F5E7DA;
-  color: #5a3b1f;
-}
 
 .navbar {
   display: flex;
@@ -593,41 +519,7 @@ nav a {
 
 
 
-.footer {
-  background-color: #762D24;
-  color: white;
-  padding: 50px 30px;
-  font-size: 15px;
-}
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
-  gap: 30px;
-}
-
-.footer-column {
-  flex: 1;
-  min-width: 200px;
-}
-
-.footer-column h4 {
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
 .footer {
   background-color: #7B2D26;
   padding: 40px;
@@ -666,13 +558,7 @@ nav a {
 }
 
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5E7DA;
-  color: #7B2D26;
-  margin: 0;
-  padding: 0;
-}
+
 
 .section-title {
   background-color: #7B2D26;
@@ -748,24 +634,9 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.footer {
-  background-color: #7B2D26;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5E7DA;
-  margin: 0;
-  padding: 0;
-  color: #7B2D26;
-}
 
 .navbar {
   display: flex;
